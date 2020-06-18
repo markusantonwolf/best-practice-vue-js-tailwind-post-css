@@ -1,0 +1,39 @@
+:root {
+  --vh: 1vh;
+  --navigation-height: 100px;
+  --navigation-zindex: 100;
+  --notifications-zindex: 99;
+}
+
+html,
+body {
+  font-size: 13px;
+}
+
+@screen sm {
+  html,
+  body {
+    font-size: 15px;
+  }
+}
+@screen md {
+  html,
+  body {
+    font-size: 16px;
+  }
+}
+@screen lg {
+  html,
+  body {
+    font-size: 18px;
+  }
+}
+
+input,
+textarea,
+button,
+select,
+div,
+a {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}

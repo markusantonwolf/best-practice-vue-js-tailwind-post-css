@@ -1,29 +1,49 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import Home from '../views/Home.vue'
+import store from '@/store'
+import Home from '@/views/Home.vue'
 
 Vue.use(VueRouter)
 
-  const routes = [
+const routes = [
   {
     path: '/',
-    name: 'Home',
-    component: Home
+    redirect: { name: 'Home' },
+    name: 'Start',
   },
   {
-    path: '/about',
-    name: 'About',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
-  }
+    path: '/home',
+    name: 'Home',
+    component: Home,
+  },
+  {
+    path: '/audio',
+    name: 'Audio',
+    component: () => import(/* webpackChunkName: "audio" */ '../views/Audio.vue'),
+  },
+  {
+    path: '/Icon',
+    name: 'icon',
+    component: () => import(/* webpackChunkName: "icon" */ '../views/Icon.vue'),
+  },
+  {
+    path: '/Notification',
+    name: 'notification',
+    component: () => import(/* webpackChunkName: "notification" */ '../views/Notification.vue'),
+  },
 ]
 
 const router = new VueRouter({
   mode: 'history',
   base: process.env.BASE_URL,
-  routes
+  linkExactActiveClass: 'is-exact-active',
+  linkActiveClass: 'is-active',
+  routes,
+})
+
+router.beforeEach((to, from, next) => {
+  store.dispatch('navigation/popupHide')
+  next()
 })
 
 export default router

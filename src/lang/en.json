@@ -1,0 +1,56 @@
+{
+  "language": "English",
+  "language_change": "Change the language to @:language",
+  "site": "Best practice Vue js",
+  "lorem_ipsum": "Lorem, ipsum dolor sit amet consectetur rebates. Where a great need, but I will not receive any praise",
+  "default": "Default",
+  "info": "Info",
+  "success": "Success",
+  "error": "Error",
+  "navigation": {
+    "home": "Home",
+    "audio": "Audio",
+    "icon": "Icons",
+    "notification": "Notifications"
+  },
+  "pages": {
+    "home": {
+      "title": "Home",
+      "headline": "Best practice Vue js"
+    },
+    "audio": {
+      "title": "Audio",
+      "headline": "Audio Base Component"
+    },
+    "icon": {
+      "title": "Icons",
+      "headline": "Icons Base Component"
+    },
+    "notification": {
+      "title": "Notifications",
+      "headline": "Notification Component"
+    }
+  },
+  "notifications": {
+    "change_language": {
+      "message": "Language changed",
+      "description": "The language has been changed to @.lower:language"
+    },
+    "example_default": {
+      "message": "Default example",
+      "description": "Some more details about the default situation"
+    },
+    "example_info": {
+      "message": "Info example",
+      "description": "Some more details about the info situation"
+    },
+    "example_success": {
+      "message": "Success example",
+      "description": "Some more details about the success situation"
+    },
+    "example_error": {
+      "message": "error example",
+      "description": "Some more details about the error situation"
+    }
+  }
+}

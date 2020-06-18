@@ -1,0 +1,6 @@
+.btn {
+  @apply block bg-primary border-2 border-black border-opacity-20 rounded-lg shadow-md w-full text-center text-white font-medium p-6;
+}
+.btn:hover {
+  @apply bg-gray-900 border-white border-opacity-20;
+}

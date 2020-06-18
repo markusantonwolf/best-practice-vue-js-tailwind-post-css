@@ -1,0 +1,56 @@
+{
+  "language": "Español",
+  "language_change": "Cambiar el idioma a @:language",
+  "site": "Mejores prácticas Vue js",
+  "lorem_ipsum": "Lorem, ipsum dolor sit amet consectetur rebates. Donde hay una gran necesidad, pero no recibiré ningún elogio",
+  "default": "Defecto",
+  "info": "Informacion",
+  "success": "Éxito",
+  "error": "Error",
+  "navigation": {
+    "home": "Casa",
+    "audio": "Audio",
+    "icon": "Íconos",
+    "notification": "Notificaciones"
+  },
+  "pages": {
+    "home": {
+      "title": "Casa",
+      "headline": "Mejores prácticas Vue js"
+    },
+    "audio": {
+      "title": "Audio",
+      "headline": "Componente base de audio"
+    },
+    "icon": {
+      "title": "Íconos",
+      "headline": "Componente base de iconos"
+    },
+    "notification": {
+      "title": "Notificaciones",
+      "headline": "Componente de notificación"
+    }
+  },
+  "notifications": {
+    "change_language": {
+      "message": "Idioma cambiado",
+      "description": "El idioma ha sido cambiado a @.lower:language"
+    },
+    "example_default": {
+      "message": "Ejemplo predeterminado",
+      "description": "Algunos detalles más sobre la situación predeterminada"
+    },
+    "example_info": {
+      "message": "Ejemplo de información",
+      "description": "Algunos detalles más sobre la situación de la información"
+    },
+    "example_success": {
+      "message": "Ejemplo de éxito",
+      "description": "Algunos detalles más sobre la situación de éxito"
+    },
+    "example_error": {
+      "message": "Ejemplo de error",
+      "description": "Algunos detalles más sobre la situación de error"
+    }
+  }
+}

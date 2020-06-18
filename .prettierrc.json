@@ -1,0 +1,21 @@
+{
+  "trailingComma": "es5",
+  "tabWidth": 2,
+  "printWidth": 120,
+  "semi": false,
+  "singleQuote": true,
+  "editor.formatOnSave": false,
+  "[markdown]": {
+    "editor.formatOnSave": false
+  },
+  "[yaml]": {
+    "editor.formatOnSave": true,
+    "semi": true,
+    "tabWidth": 2
+  },
+  "[php]": {
+    "editor.formatOnSave": false,
+    "semi": true,
+    "tabWidth": 2
+  }
+}

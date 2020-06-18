@@ -1,0 +1,56 @@
+{
+  "language": "Deutsch",
+  "language_change": "Wechsel die Sprache zu @.lower:language",
+  "site": "Best practice Vue js",
+  "lorem_ipsum": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam unde necessitatibus, eveniet possimus suscipit laudantium quisquam at",
+  "default": "Standard",
+  "info": "Information",
+  "success": "Erfolg",
+  "error": "Error",
+  "navigation": {
+    "home": "Home",
+    "audio": "Audio",
+    "icon": "Symbole",
+    "notification": "Benachrichtigungen"
+  },
+  "pages": {
+    "home": {
+      "title": "Start",
+      "headline": "Best practice Vue js"
+    },
+    "audio": {
+      "title": "Audio",
+      "headline": "Audio-Basiskomponente"
+    },
+    "icon": {
+      "title": "Symbole",
+      "headline": "Symbole Basiskomponente"
+    },
+    "notification": {
+      "title": "Benachrichtigungen",
+      "headline": "Benachrichtigungskomponente"
+    }
+  },
+  "notifications": {
+    "change_language": {
+      "message": "Sprache geändert",
+      "description": "Die Sprache wurde zu @.lower:language geändert"
+    },
+    "example_default": {
+      "message": "Standardbeispiel",
+      "description": "Weitere Details zur Standardsituation"
+    },
+    "example_info": {
+      "message": "Info Beispiel",
+      "description": "Weitere Details zur Infosituation"
+    },
+    "example_success": {
+      "message": "Erfolgsbeispiel",
+      "description": "Weitere Details zur Erfolgssituation"
+    },
+    "example_error": {
+      "message": "Fehlerbeispiel",
+      "description": "Weitere Details zur Fehlersituation"
+    }
+  }
+}

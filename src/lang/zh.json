@@ -1,0 +1,56 @@
+{
+  "language": "中文",
+  "language_change": "將語言更改為 @:language",
+  "site": "最佳實踐Vue js",
+  "lorem_ipsum": "洛雷姆（Lorem），伊普蘇姆（ipsum）多洛爾（Dosum）坐著，享受返利。 哪裡有很大需要，但我不會得到任何好評",
+  "default": "默認",
+  "info": "信息",
+  "success": "成功",
+  "error": "錯誤",
+  "navigation": {
+    "home": "主頁",
+    "audio": "音訊",
+    "icon": "圖示",
+    "notification": "通知事項"
+  },
+  "pages": {
+    "home": {
+      "title": "主頁",
+      "headline": "最佳實踐Vue js"
+    },
+    "audio": {
+      "title": "音訊",
+      "headline": "音頻基礎組件"
+    },
+    "icon": {
+      "title": "圖示",
+      "headline": "圖標基本組件"
+    },
+    "notification": {
+      "title": "通知事項",
+      "headline": "通知組件"
+    }
+  },
+  "notifications": {
+    "change_language": {
+      "message": "語言已更改",
+      "description": "語言已更改為 @.lower:language"
+    },
+    "example_default": {
+      "message": "默認示例",
+      "description": "有關默認情況的更多詳細信息"
+    },
+    "example_info": {
+      "message": "信息示例",
+      "description": "有關信息情況的更多詳細信息"
+    },
+    "example_success": {
+      "message": "成功例子",
+      "description": "有關成功情況的更多詳細信息"
+    },
+    "example_error": {
+      "message": "錯誤示例",
+      "description": "A有關錯誤情況的更多詳細信息"
+    }
+  }
+}
