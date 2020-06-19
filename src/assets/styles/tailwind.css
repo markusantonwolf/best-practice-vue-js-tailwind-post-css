@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code&family=Fira+Sans:wght@300;400;500;600;700&display=swap');
-@import '_root.css';
 @tailwind base;
+@import '_root.css';
 @tailwind components;
 @tailwind utilities;
 @import '_utilities.css';
