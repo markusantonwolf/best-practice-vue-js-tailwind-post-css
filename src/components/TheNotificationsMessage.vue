@@ -35,6 +35,9 @@ export default {
       if (typeof this.message.type === undefined) {
         return ''
       }
+      if (this.message.type === '') {
+        return ''
+      }
       return 'message--' + this.message.type
     },
     has_description: function() {
