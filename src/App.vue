@@ -53,7 +53,7 @@ export default {
     ...mapState('navigation', ['popup']),
     ...mapState('meta', ['data', 'language']),
     route_name_key: function() {
-      return this.$route.name + '-' + this.language
+      return this.$route.path + '-' + this.language
     },
   },
   methods: {
