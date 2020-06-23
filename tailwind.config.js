@@ -46,6 +46,9 @@ module.exports = {
         '.filter-blur': {
           filter: 'blur(10px)',
         },
+        '.backdrop-blur': {
+          backdropFilter: 'blur(4px)',
+        },
       }
       addUtilities(newUtilities, ['responsive', 'hover'])
     }),
