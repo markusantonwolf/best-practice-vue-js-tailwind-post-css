@@ -59,17 +59,17 @@ export default {
 
 <style lang="postcss" scoped>
 .message {
-  @apply rounded-lg shadow-md border border-gray-400 bg-gray-300 bg-opacity-90 w-full max-w-xl text-gray-900 my-2;
+  @apply rounded-lg shadow-xl border-2 border-gray-400 border-opacity-40 bg-gray-300 bg-opacity-80 w-full max-w-xl backdrop-blur text-gray-900 my-2;
 }
 /* purgecss start ignore */
 .message--info {
-  @apply border-yellow-300 text-yellow-900 bg-yellow-200 bg-opacity-90;
+  @apply border-yellow-300 border-opacity-40 text-yellow-900 bg-yellow-200 bg-opacity-80;
 }
 .message--error {
-  @apply border-red-300 text-red-900 bg-red-200 bg-opacity-90;
+  @apply border-red-300 border-opacity-40 text-red-900 bg-red-200 bg-opacity-80;
 }
 .message--success {
-  @apply border-teal-300 text-teal-900 bg-teal-200 bg-opacity-90;
+  @apply border-teal-300 border-opacity-40 text-teal-900 bg-teal-200 bg-opacity-80;
 }
 /* purgecss end ignore */
 </style>
