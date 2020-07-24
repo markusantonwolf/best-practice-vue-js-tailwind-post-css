@@ -4,6 +4,28 @@ const plugin = require('tailwindcss/plugin')
 module.exports = {
   purge: ['./src/**/*.html', './src/**/*.vue', './public/**/*.html'],
   theme: {
+    fontFamily: {
+      sans: ['Fira Sans', '"Helvetica Neue"', 'Arial', '"Noto Sans"', 'sans-serif'],
+      mono: ['Fira Code', 'Monaco', 'Consolas', '"Liberation Mono"', '"Courier New"', 'monospace'],
+    },
+    listStyleType: {
+      circle: 'circle',
+    },
+    container: {
+      center: true,
+    },
+    height: theme => ({
+      auto: 'auto',
+      ...theme('spacing'),
+      full: '100%',
+      screen: 'calc(var(--vh) * 100)',
+    }),
+    minHeight: theme => ({
+      '0': '0',
+      ...theme('spacing'),
+      full: '100%',
+      screen: 'calc(var(--vh) * 100)',
+    }),
     extend: {
       colors: {
         primary: colors.pink[800],
@@ -21,16 +43,6 @@ module.exports = {
         '80': '0.8',
         '90': '0.9',
       },
-    },
-    fontFamily: {
-      sans: ['Fira Sans', '"Helvetica Neue"', 'Arial', '"Noto Sans"', 'sans-serif'],
-      mono: ['Fira Code', 'Monaco', 'Consolas', '"Liberation Mono"', '"Courier New"', 'monospace'],
-    },
-    listStyleType: {
-      circle: 'circle',
-    },
-    container: {
-      center: true,
     },
   },
   variants: {},
@@ -51,17 +63,6 @@ module.exports = {
         },
       }
       addUtilities(newUtilities, ['responsive', 'hover'])
-    }),
-    plugin(function({ addUtilities }) {
-      const changedUtilities = {
-        '.min-h-screen': {
-          minHeight: 'calc(var(--vh) * 100)',
-        },
-        '.h-screen': {
-          height: 'calc(var(--vh) * 100)',
-        },
-      }
-      addUtilities(changedUtilities)
     }),
   ],
 }
